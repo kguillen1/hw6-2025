@@ -91,7 +91,7 @@ window.addEventListener("load", function() {
 
     // Toggle the 'oldSchool' class on the video element when the vintage button is clicked
     oldSchoolButton.addEventListener('click', function() {
-        video.classList.toggle('oldSchool');
+        video.classList.add('oldSchool');
     });
 
     // Remove the 'oldSchool' class from the video element when the original button is clicked
